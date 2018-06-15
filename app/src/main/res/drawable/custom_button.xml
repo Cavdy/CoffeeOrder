@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <layer-list>
+            <item android:top="10dp" android:left="2dp">
+                <shape>
+                    <gradient
+                        android:startColor="#536DFE"
+                        android:endColor="#536DFE" />
+                    <corners
+                        android:topLeftRadius="50dp"
+                        android:bottomLeftRadius="50dp"
+                        android:topRightRadius="50dp"
+                        android:bottomRightRadius="50dp"
+                        />
+                    <padding
+                        android:left="5dp"/>
+                    <stroke
+                        android:width="5px"
+                        android:color="#536DFE"/>
+                </shape>
+            </item>
+            <item android:bottom="5dp" android:left="2dp">
+                <shape>
+                    <gradient
+                        android:startColor="#03A9F4"
+                        android:endColor="#03A9F4" />
+                    <corners
+                        android:topLeftRadius="50dp"
+                        android:bottomLeftRadius="50dp"
+                        android:topRightRadius="50dp"
+                        android:bottomRightRadius="50dp"
+                        />
+                    <padding
+                        android:left="10dp"/>
+                    <stroke
+                        android:width="5px"
+                        android:color="#03A9F4"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_focused="true">
+        <layer-list>
+            <item android:top="10dp" android:left="2dp">
+                <shape>
+                    <gradient
+                        android:startColor="#536DFE"
+                        android:endColor="#536DFE" />
+                    <corners
+                        android:topLeftRadius="50dp"
+                        android:bottomLeftRadius="50dp"
+                        android:topRightRadius="50dp"
+                        android:bottomRightRadius="50dp"
+                        />
+                    <padding
+                        android:left="5dp"/>
+                    <stroke
+                        android:width="5px"
+                        android:color="#536DFE"/>
+                </shape>
+            </item>
+            <item android:bottom="5dp" android:left="2dp">
+                <shape>
+                    <gradient
+                        android:startColor="#03A9F4"
+                        android:endColor="#03A9F4" />
+                    <corners
+                        android:topLeftRadius="50dp"
+                        android:bottomLeftRadius="50dp"
+                        android:topRightRadius="50dp"
+                        android:bottomRightRadius="50dp"
+                        />
+                    <padding
+                        android:left="10dp"/>
+                    <stroke
+                        android:width="5px"
+                        android:color="#03A9F4"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item android:top="10dp" android:left="2dp">
+                <shape>
+                    <gradient
+                        android:startColor="#536DFE"
+                        android:endColor="#536DFE" />
+                    <corners
+                        android:topLeftRadius="50dp"
+                        android:bottomLeftRadius="50dp"
+                        android:topRightRadius="50dp"
+                        android:bottomRightRadius="50dp"
+                        />
+                    <padding
+                        android:left="5dp"/>
+                    <stroke
+                        android:width="5px"
+                        android:color="#536DFE"/>
+                </shape>
+            </item>
+            <item android:bottom="5dp" android:left="2dp">
+                <shape>
+                    <gradient
+                        android:startColor="#03A9F4"
+                        android:endColor="#03A9F4" />
+                    <corners
+                        android:topLeftRadius="50dp"
+                        android:bottomLeftRadius="50dp"
+                        android:topRightRadius="50dp"
+                        android:bottomRightRadius="50dp"
+                        />
+                    <padding
+                        android:left="10dp"/>
+                    <stroke
+                        android:width="5px"
+                        android:color="#03A9F4"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
